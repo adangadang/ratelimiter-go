@@ -5,7 +5,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	ratelimiter "github.com/teambition/ratelimiter-go"
+	ratelimiter "github.com/adangadang/ratelimiter-go"
 )
 
 func BenchmarkGet(b *testing.B) {
@@ -90,3 +90,4 @@ func getUniqueID() string {
 	}
 	return hex.EncodeToString(buf)
 }
+
