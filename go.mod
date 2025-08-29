@@ -1,4 +1,4 @@
-module github.com/teambition/ratelimiter-go
+module github.com/adangadang/ratelimiter-go
 
 go 1.12
 
