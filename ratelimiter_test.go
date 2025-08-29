@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/teambition/ratelimiter-go"
+	"github.com/adangadang/ratelimiter-go"
 	"github.com/go-redis/redis"
 )
 
